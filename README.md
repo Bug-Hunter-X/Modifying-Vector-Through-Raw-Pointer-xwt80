@@ -1,0 +1,1 @@
+This repository contains a Rust program that demonstrates a subtle bug related to modifying a vector through a raw pointer. The bug occurs because the raw pointer remains valid even after the vector's internal data is modified. This can lead to data corruption and crashes if not handled carefully. The solution shows how to address this issue.
